@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Chrome, Safari and Opera syntax */
+:-webkit-full-screen {
+  background-color: yellow;
+}
+
+/* Firefox syntax */
+:-moz-full-screen {
+  background-color: yellow;
+}
+
+/* IE/Edge syntax */
+:-ms-fullscreen {
+  background-color: yellow;
+}
+
+/* Standard syntax */
+:fullscreen {
+  background-color: yellow;
+}
+
+/* Style the button */
+button {
+  padding: 20px;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Time to make a point</h2>
+
+Set length of time in seconds: <input type="number" id="timeText" value=3>
+
+<p></p>
+<label for="points">POINTS</label>
+<a type="number" id="points" value=20>20</a>
+<p></p>
+<a id="demo"></a> m
+<a id="demo2"></a> s
+<p></p>
+
+<button onclick="openFullscreen();">Start Fullscreen</button>
+<button onclick="closeFullscreen();">Close Fullscreen</button>
+<!-- <button onclick="buttonFunction();">Start</button> -->
+
+
+<script>
+var sec = timeText.value;
+var points = parseInt(document.getElementById("points").innerHTML);
+
+// console.log(typeof potential_pts);
+// console.log(potential_pts);
+
+function buttonFunction(){
+  var myVar = setInterval(myTimer, 1000);
+  var potential_pts = parseInt(timeText.value);
+
+  function myTimer() {
+  document.getElementById("demo").innerHTML = Math.floor(sec / 60);
+  document.getElementById("demo2").innerHTML = sec % 60;
+  sec -= 1;
+  if (sec < 0){
+    clearInterval(myVar);
+    points += potential_pts;
+    document.getElementById("points").innerHTML = points;
+    // document.getElementById("points").innerHTML += 0;
+  }
+
+  if( window.innerHeight != screen.height) {
+    points = 0;
+    document.getElementById("points").innerHTML = 0;
+  }
+  }
+
+  sec = timeText.value;
+
+}
+
+// rename function buttonfunction
+
+var elem = document.documentElement;
+function openFullscreen() {
+  buttonFunction();
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) {
+    document.msExitFullscreen();
+  }
+}
+
+</script>
+
+<p>Note: Only compatable with computer borowsers. Internet Explorer 10 and earlier does not support the msRequestFullscreen() method.</p>
+
+</body>
+</html>
+
