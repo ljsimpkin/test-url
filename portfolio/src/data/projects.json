@@ -342,8 +342,8 @@ var projects = [
  {
    "title": "Agri tech startup - Beekeeping",
    "group": "project",
-   "description": "https://www.myapiary.com/",
-   "url": "",
+   "description": "Great experience learning about all things bees",
+   "url": "https://www.myapiary.com/",
    "src": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/honeybee_1f41d.png",
    "src2": "",
    "src3": "",
