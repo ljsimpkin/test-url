@@ -261,7 +261,7 @@ var projects = [
  },
  {
    "title": "Played with Python",
-   "group": "project",
+   "group": "learning",
    "description": "Kaggle Course",
    "url": "https://www.kaggle.com/learn/certification/liamsimpkin/python",
    "src": "media/images/kaggle.jpeg",
@@ -291,7 +291,7 @@ var projects = [
  },
  {
    "title": "Berkley AI Course",
-   "group": "project",
+   "group": "learning",
    "description": "Signed up to inclusive AI course",
    "url": "https://berkeley.us14.list-manage.com/track/click?u=1075bc7887a2db896be9973cf&id=c0a7165a5d&e=f365cdd717",
    "src": "https://static.easyrecrue.com/clients/1297_f4d49f5689ab867e9bf73b6ca48c01ee/telechargement.png",
@@ -522,9 +522,19 @@ var projects = [
  {
    "title": "Money Motivate",
    "group": "project",
-   "description": "Building an app that helps you stay focused. #Smart_Contracts #Blockchain #Buzzy_Buzzwords",
+   "description": "Building an app that helps you stay focused. #Smart_Contracts #Blockchain #Buzzwords!",
    "url": "https://ljsimpkin.github.io/web_test/",
    "src": "media/images/LogoDraft.png",
+   "src2": "",
+   "src3": "",
+   "src4": ""
+ },
+ {
+   "title": "Cash Blocks",
+   "group": "project",
+   "description": "A simple UI for craeting bitcoin-cash smart contracts",
+   "url": "https://devpost.com/software/cash-blocks",
+   "src": "https://res.cloudinary.com/devpost/image/fetch/s--AtmSSPeY--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://fintechreview.net/wp-content/uploads/2021/01/flowchart.jpg",
    "src2": "",
    "src3": "",
    "src4": ""
