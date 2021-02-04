@@ -7,3 +7,7 @@ Hello, welcome to my personal website. Click on the link below to check it out
 <a href="https://www.linkedin.com/in/liamsimpkin/">Linkedin</a>
 <a href="https://twitter.com/5impkin">Twitter</a>
 
+
+This is an template website for you to fill in your own information. Follow the instructions at https://learncs8.com
+
+Special thanks to the open source bootstrap libraries that made this website possible. 
