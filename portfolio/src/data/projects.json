@@ -284,7 +284,7 @@ var projects = [
    "group": "project",
    "description": "Notified when NZ companies get investment",
    "url": "https://fortune.com/newsletter/termsheet/",
-   "src": "https://worksafe.govt.nz/assets/Tile/Icons/Infographic-Alert-navy-background.png",
+   "src": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/rocket_1f680.png",
    "src2": "",
    "src3": "",
    "src4": ""
@@ -309,16 +309,16 @@ var projects = [
    "src3": "",
    "src4": ""
  },
- {
-   "title": "Economics Tutoring",
-   "group": "project",
-   "description": "It's all about supply and demand",
-   "url": "https://www.google.com/search?q=supply+and+demand&tbm=isch&ved=2ahUKEwj5oKK07eHpAhWd3HMBHffLBJYQ2-cCegQIABAA&oq=pply+and+demandus&gs_lcp=CgNpbWcQA1AAWABgzSFoAHAAeACAAQCIAQCSAQCYAQCqAQtnd3Mtd2l6LWltZw&sclient=img&ei=nprVXvnZDJ25z7sP95eTsAk&bih=721&biw=1280",
-   "src": "media/images/supandd.JPG",
-   "src2": "",
-   "src3": "",
-   "src4": ""
- },
+ // {
+ //   "title": "Economics Tutoring",
+ //   "group": "project",
+ //   "description": "It's all about supply and demand",
+ //   "url": "https://www.google.com/search?q=supply+and+demand&tbm=isch&ved=2ahUKEwj5oKK07eHpAhWd3HMBHffLBJYQ2-cCegQIABAA&oq=pply+and+demandus&gs_lcp=CgNpbWcQA1AAWABgzSFoAHAAeACAAQCIAQCSAQCYAQCqAQtnd3Mtd2l6LWltZw&sclient=img&ei=nprVXvnZDJ25z7sP95eTsAk&bih=721&biw=1280",
+ //   "src": "media/images/supandd.JPG",
+ //   "src2": "",
+ //   "src3": "",
+ //   "src4": ""
+ // },
  {
    "title": "Ocean Swimming",
    "group": "adventure",
@@ -344,7 +344,7 @@ var projects = [
    "group": "project",
    "description": "https://www.myapiary.com/",
    "url": "",
-   "src": "https://www.myapiary.com/assets/Uploads/cms-branding/bfd2003fc7/MyApiary-Logo-Full-color-black-background-medium__ScaleMaxWidthWzE4N10.jpg",
+   "src": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/271/honeybee_1f41d.png",
    "src2": "",
    "src3": "",
    "src4": ""
@@ -401,7 +401,7 @@ var projects = [
  },
  {
    "title": "Finance",
-   "group": "project",
+   "group": "learning",
    "description": "Studying finance at uni and learning how black scholes really is",
    "url": "https://www.google.com/search?q=Fischer+Black,+Myron+Scholes&sxsrf=ALeKk01oeMjs60_60VSTnLU2XOJTs3jByw:1591162420169&source=lnms&tbm=isch&sa=X&ved=2ahUKEwip1dX29eTpAhWD8HMBHbqLDX4Q_AUoAXoECAwQAw&biw=1280&bih=672",
    "src": "media/images/finc.PNG",
