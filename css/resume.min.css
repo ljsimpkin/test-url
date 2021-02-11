@@ -19,6 +19,10 @@
     }
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .wave {
   opacity: .4;
   position: absolute;
