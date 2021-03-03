@@ -33,7 +33,7 @@ var projects = [
    "title": "Face Recognition",
    "group": "project",
    "description": "Turn your face into a controller. This app can be used to play your own walk in music, convince thieves you have attack dogs, and doesn't require training. Works on your GoPro too!",
-   "url": "media/video/intro_music_ml.mp4",
+   "url": "media/video/applause.mp4",
    "src": "media/images/Obama.jpg",
    "src2": "",
    "src3": "",
