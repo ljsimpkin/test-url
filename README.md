@@ -3,7 +3,7 @@ Hello, welcome to my personal website. Click on the link below to check it out.
 
 
 # Profile Links
-<a href="www.liamsimpkin.com">Personal Website</a>
+<a href="https://ljsimpkin.github.io/resume/">Personal Website</a>
 <a href="https://www.linkedin.com/in/liamsimpkin/">Linkedin</a>
 <a href="https://twitter.com/5impkin">Twitter</a>
 
